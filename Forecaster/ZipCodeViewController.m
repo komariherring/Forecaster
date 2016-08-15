@@ -6,13 +6,17 @@
 //  Copyright © 2016 The Iron Yard. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ZipCodeViewController.h"
+#import "Location.h"
 
-@interface ViewController ()
+@interface ZipCodeViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *zipCodeTextField;
 
 @end
 
-@implementation ViewController
+@implementation ZipCodeViewController
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,5 +27,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)searchTapped:(UIButton *)sender {
+    [self.delegate searchWasTyped:self.zipCodeTextField.text];
+    [self dismissViewControllerAnimated:YES completion:nil];
+
+}
+
+
 
 @end

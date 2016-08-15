@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ZipCodeViewController : UIViewController
+@property (weak, nonatomic) id<SearchTextFieldDelegate> delegate; 
 
 
 @end

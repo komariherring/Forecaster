@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		EE58BC4A1D5CFC5F00B6BC76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC491D5CFC5F00B6BC76 /* main.m */; };
 		EE58BC4D1D5CFC5F00B6BC76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC4C1D5CFC5F00B6BC76 /* AppDelegate.m */; };
-		EE58BC501D5CFC5F00B6BC76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC4F1D5CFC5F00B6BC76 /* ViewController.m */; };
+		EE58BC501D5CFC5F00B6BC76 /* ZipCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC4F1D5CFC5F00B6BC76 /* ZipCodeViewController.m */; };
 		EE58BC531D5CFC5F00B6BC76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE58BC511D5CFC5F00B6BC76 /* Main.storyboard */; };
 		EE58BC561D5CFC5F00B6BC76 /* Forecaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC541D5CFC5F00B6BC76 /* Forecaster.xcdatamodeld */; };
 		EE58BC581D5CFC5F00B6BC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE58BC571D5CFC5F00B6BC76 /* Assets.xcassets */; };
 		EE58BC5B1D5CFC5F00B6BC76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE58BC591D5CFC5F00B6BC76 /* LaunchScreen.storyboard */; };
+		EE58BC641D61DBFB00B6BC76 /* LocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC631D61DBFB00B6BC76 /* LocationTableViewController.m */; };
+		EE58BC671D61DE9700B6BC76 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC661D61DE9700B6BC76 /* Location.m */; };
+		EE58BC6A1D61E17600B6BC76 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC691D61E17600B6BC76 /* Weather.m */; };
+		EE58BC6D1D61E3F100B6BC76 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC6C1D61E3F100B6BC76 /* WeatherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +25,21 @@
 		EE58BC491D5CFC5F00B6BC76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE58BC4B1D5CFC5F00B6BC76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE58BC4C1D5CFC5F00B6BC76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE58BC4E1D5CFC5F00B6BC76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE58BC4F1D5CFC5F00B6BC76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE58BC4E1D5CFC5F00B6BC76 /* ZipCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZipCodeViewController.h; sourceTree = "<group>"; };
+		EE58BC4F1D5CFC5F00B6BC76 /* ZipCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZipCodeViewController.m; sourceTree = "<group>"; };
 		EE58BC521D5CFC5F00B6BC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE58BC551D5CFC5F00B6BC76 /* Forecaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Forecaster.xcdatamodel; sourceTree = "<group>"; };
 		EE58BC571D5CFC5F00B6BC76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE58BC5A1D5CFC5F00B6BC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE58BC5C1D5CFC5F00B6BC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE58BC621D61DBFB00B6BC76 /* LocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTableViewController.h; sourceTree = "<group>"; };
+		EE58BC631D61DBFB00B6BC76 /* LocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewController.m; sourceTree = "<group>"; };
+		EE58BC651D61DE9700B6BC76 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		EE58BC661D61DE9700B6BC76 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		EE58BC681D61E17600B6BC76 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		EE58BC691D61E17600B6BC76 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		EE58BC6B1D61E3F100B6BC76 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		EE58BC6C1D61E3F100B6BC76 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +74,16 @@
 			children = (
 				EE58BC4B1D5CFC5F00B6BC76 /* AppDelegate.h */,
 				EE58BC4C1D5CFC5F00B6BC76 /* AppDelegate.m */,
-				EE58BC4E1D5CFC5F00B6BC76 /* ViewController.h */,
-				EE58BC4F1D5CFC5F00B6BC76 /* ViewController.m */,
+				EE58BC4E1D5CFC5F00B6BC76 /* ZipCodeViewController.h */,
+				EE58BC4F1D5CFC5F00B6BC76 /* ZipCodeViewController.m */,
+				EE58BC681D61E17600B6BC76 /* Weather.h */,
+				EE58BC691D61E17600B6BC76 /* Weather.m */,
+				EE58BC6B1D61E3F100B6BC76 /* WeatherViewController.h */,
+				EE58BC6C1D61E3F100B6BC76 /* WeatherViewController.m */,
+				EE58BC651D61DE9700B6BC76 /* Location.h */,
+				EE58BC661D61DE9700B6BC76 /* Location.m */,
+				EE58BC621D61DBFB00B6BC76 /* LocationTableViewController.h */,
+				EE58BC631D61DBFB00B6BC76 /* LocationTableViewController.m */,
 				EE58BC511D5CFC5F00B6BC76 /* Main.storyboard */,
 				EE58BC571D5CFC5F00B6BC76 /* Assets.xcassets */,
 				EE58BC591D5CFC5F00B6BC76 /* LaunchScreen.storyboard */,
@@ -152,9 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE58BC501D5CFC5F00B6BC76 /* ViewController.m in Sources */,
+				EE58BC501D5CFC5F00B6BC76 /* ZipCodeViewController.m in Sources */,
+				EE58BC6D1D61E3F100B6BC76 /* WeatherViewController.m in Sources */,
 				EE58BC561D5CFC5F00B6BC76 /* Forecaster.xcdatamodeld in Sources */,
+				EE58BC6A1D61E17600B6BC76 /* Weather.m in Sources */,
 				EE58BC4D1D5CFC5F00B6BC76 /* AppDelegate.m in Sources */,
+				EE58BC641D61DBFB00B6BC76 /* LocationTableViewController.m in Sources */,
+				EE58BC671D61DE9700B6BC76 /* Location.m in Sources */,
 				EE58BC4A1D5CFC5F00B6BC76 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +328,7 @@
 				EE58BC611D5CFC5F00B6BC76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
